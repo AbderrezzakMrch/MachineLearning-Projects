@@ -96,30 +96,34 @@ MachineLearning-Projects/
 
 ## 🛠️ Installation
 
-Clone the repository:
+### Clone the repository:
 
 ```bash
 git clone https://github.com/AbderrezzakMrch/MachineLearning-Projects.git
 cd MachineLearning-Projects
 ```
 
-Install dependencies:
+### Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
-Recommended requirements.txt:
-
+ ###Recommended requirements.txt:
+ 
+```bash
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
 joblib
-
+```
 ---
 
-📘 Example Syntax
-📌 Linear Regression (scikit-learn)
+## 📘 Example Syntax
+### 📌 Linear Regression (scikit-learn)
+```bash
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
@@ -130,24 +134,27 @@ model = LinearRegression()
 model.fit(X, y)
 
 print("Prediction for 5 =", model.predict([[5]]))
-
-📌 Logistic Regression
+```
+### 📌 Logistic Regression
+```bash
 from sklearn.linear_model import LogisticRegression
 
 clf = LogisticRegression()
 clf.fit(X_train, y_train)
 
 pred = clf.predict(X_test)
-
-📌 K-Fold Cross Validation
+```
+### 📌 K-Fold Cross Validation
+```bash
 from sklearn.model_selection import KFold, cross_val_score
 
 kf = KFold(n_splits=5, shuffle=True, random_state=42)
 scores = cross_val_score(model, X, y, cv=kf)
 
 print("Average accuracy:", scores.mean())
-
-📌 Hyperparameter Tuning (GridSearchCV)
+```
+### 📌 Hyperparameter Tuning (GridSearchCV)
+```bash
 from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVC
 
@@ -157,10 +164,10 @@ grid = GridSearchCV(SVC(), params, cv=5)
 grid.fit(X_train, y_train)
 
 print("Best parameters:", grid.best_params_)
-
+```
 ---
 
-🎯 Goals of this Repository
+## 🎯 Goals of this Repository
 
 Learn ML algorithms from scratch + with libraries
 
@@ -174,7 +181,7 @@ Build a strong foundation for future AI projects
 
 ---
 
-🏅 Status
+## 🏅 Status
 
 ✔️ All ML algorithms implemented
 ✔️ PCA + Feature Engineering added
@@ -184,13 +191,13 @@ Build a strong foundation for future AI projects
 
 ---
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-⭐ Support
+## ⭐ Support
 
 If this repo helped you, consider giving it a ⭐ star — it motivates me to build more ML projects!
 
