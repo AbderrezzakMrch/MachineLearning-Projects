@@ -70,6 +70,7 @@ Each project folder contains:
 ---
 
 ## 📂 Repository Structure
+```bash
 MachineLearning-Projects/
 │
 ├── 1-Linear Regression Single Variables/
@@ -91,7 +92,7 @@ MachineLearning-Projects/
 ├── 18-KNN Classification/
 ├── 19-PCA/
 └── 20-Ensemble Learning - Bagging/
-
+```
 ---
 
 ## 🛠️ Installation
@@ -109,7 +110,7 @@ cd MachineLearning-Projects
 pip install -r requirements.txt
 ```
 
- ###Recommended requirements.txt:
+ ### Recommended requirements.txt:
  
 ```bash
 numpy
@@ -182,25 +183,25 @@ Build a strong foundation for future AI projects
 ---
 
 ## 🏅 Status
-
+```bash
 ✔️ All ML algorithms implemented
 ✔️ PCA + Feature Engineering added
 ✔️ Ensemble Learning added
 ✔️ Clean structured folders
 ✔️ Beginner-friendly explanations
-
+```
 ---
 
 ## 📄 License
-
+```bash
 This project is licensed under the MIT License.
-
+```
 ---
 
 ## ⭐ Support
-
+```bash
 If this repo helped you, consider giving it a ⭐ star — it motivates me to build more ML projects!
-
+```
 ---
 
 <p align="center"><b>Made with ❤️ by AbderrezzakMrch</b></p> ```
