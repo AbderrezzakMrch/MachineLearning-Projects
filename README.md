@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbderrezzakMrch/MachineLearning-Projects/main/banner.png" 
+  <img src="banner.png" 
        alt="Machine Learning Projects Banner" 
        width="100%">
 </p>
