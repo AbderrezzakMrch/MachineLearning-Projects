@@ -1,7 +1,10 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://dummyimage.com/1200x250/0a0a0a/00eaff&text=Machine+Learning+Projects+%7C+AbderrezzakMrch" alt="Machine Learning Banner">
+  <img src="https://raw.githubusercontent.com/AbderrezzakMrch/MachineLearning-Projects/main/banner.png" 
+       alt="Machine Learning Projects Banner" 
+       width="100%">
 </p>
+
 
 <h1 align="center">🧠 MachineLearning-Projects</h1>
 
@@ -169,7 +172,7 @@ print("Best parameters:", grid.best_params_)
 ---
 
 ## 🎯 Goals of this Repository
-
+```bash
 Learn ML algorithms from scratch + with libraries
 
 Understand math and intuition behind ML
@@ -179,7 +182,7 @@ Practice on real datasets
 Explore tuning, preprocessing, validation
 
 Build a strong foundation for future AI projects
-
+```
 ---
 
 ## 🏅 Status
